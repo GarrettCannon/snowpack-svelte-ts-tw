@@ -1,4 +1,13 @@
 {
+	"name": "snowpack-svelte-ts-tw",
+	"version": "1.0.0",
+	"author": {
+		"name": "Garrett Cannon",
+		"email": "garrett@gcannon.net"
+	},
+	"keywords": [
+		"csa-template"
+	],
 	"scripts": {
 		"ts-check": "svelte-check",
 		"start": "snowpack dev",
