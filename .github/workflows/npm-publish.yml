@@ -15,12 +15,13 @@ jobs:
           node-version: '12.x'
           registry-url: 'https://registry.npmjs.org'
       - run: yarn install
-      - run: npm publish
+      - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - uses: actions/setup-node@v1
         with:
           registry-url: 'https://npm.pkg.github.com'
-      - run: npm publish
+          scope: '@garrettcannon'
+      - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
