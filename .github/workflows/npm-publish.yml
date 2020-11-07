@@ -17,7 +17,7 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
     - run: yarn
     # Publish to npm
-    - run: yarn publish --access public
+    - run: yarn publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     # Setup .npmrc file to publish to GitHub Packages
