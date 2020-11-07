@@ -5,7 +5,7 @@
 Create a new project with:
 
 ```bash
-npx create-snowpack-app dir-name --template svelte-tailwind-snowpack
+npx create-snowpack-app dir-name --template snowpack-svelte-ts-tw
 ```
 
 Uses `svelte-preprocess`
