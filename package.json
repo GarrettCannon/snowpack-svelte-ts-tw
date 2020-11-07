@@ -1,0 +1,40 @@
+{
+	"scripts": {
+		"ts-check": "svelte-check",
+		"start": "snowpack dev",
+		"build": "snowpack build",
+		"test": "web-test-runner \"src/**/*.test.ts\""
+	},
+	"dependencies": {
+		"svelte": "^3.24.0"
+	},
+	"devDependencies": {
+		"@snowpack/app-scripts-svelte": "^1.9.2",
+		"@snowpack/plugin-dotenv": "^2.0.4",
+		"@snowpack/plugin-svelte": "^3.3.0",
+		"@snowpack/plugin-typescript": "^1.1.0",
+		"@tsconfig/svelte": "^1.0.10",
+		"@types/snowpack-env": "^2.3.0",
+		"autoprefixer": "^10.0.1",
+		"husky": "^4.3.0",
+		"lint-staged": "^10.5.1",
+		"postcss": "^8.1.6",
+		"postcss-cli": "^8.2.0",
+		"postcss-load-config": "^3.0.0",
+		"prettier": "^2.1.2",
+		"prettier-plugin-svelte": "^1.4.1",
+		"snowpack": "^2.17.0",
+		"svelte-check": "^1.1.11",
+		"svelte-preprocess": "^4.0.8",
+		"tailwindcss": "^1.9.6",
+		"typescript": "^4.0.0"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{js,ts,css,md}": "prettier --write"
+	}
+}
