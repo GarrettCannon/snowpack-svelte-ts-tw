@@ -1,4 +1,4 @@
-# Svelte with TailwindCSS - Snowpack
+# Svelte with Typescript and TailwindCSS built with Snowpack
 
 > ✨ Community template for Snowpack + Svelte + Typescript + TailwindCSS
 
