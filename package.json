@@ -1,6 +1,9 @@
 {
 	"name": "snowpack-svelte-ts-tw",
+	"homepage": "https://github.com/GarrettCannon/snowpack-svelte-ts-tw",
+	"description": "Community template for Snowpack + Svelte + Typescript + TailwindCSS",
 	"version": "1.0.8",
+	"license": "MIT",
 	"author": {
 		"name": "Garrett Cannon",
 		"email": "garrett@gcannon.net"
@@ -8,6 +11,9 @@
 	"keywords": [
 		"csa-template"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"ts-check": "svelte-check",
 		"start": "snowpack dev",
@@ -24,8 +30,6 @@
 		"@tsconfig/svelte": "^1.0.10",
 		"@types/snowpack-env": "^2.3.0",
 		"autoprefixer": "^10.0.1",
-		"husky": "^4.3.0",
-		"lint-staged": "^10.5.1",
 		"postcss": "^8.1.6",
 		"postcss-cli": "^8.2.0",
 		"postcss-load-config": "^3.0.0",
