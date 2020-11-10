@@ -2,14 +2,18 @@
 	"name": "snowpack-svelte-ts-tw",
 	"homepage": "https://github.com/GarrettCannon/snowpack-svelte-ts-tw",
 	"description": "Community template for Snowpack + Svelte + Typescript + TailwindCSS",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"license": "MIT",
 	"author": {
 		"name": "Garrett Cannon",
 		"email": "garrett@gcannon.net"
 	},
 	"keywords": [
-		"csa-template"
+		"csa-template",
+		"snowpack",
+		"svelte",
+		"typescript",
+		"tailwindcss"
 	],
 	"publishConfig": {
 		"access": "public"
