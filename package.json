@@ -2,7 +2,7 @@
 	"name": "snowpack-svelte-ts-tw",
 	"homepage": "https://github.com/GarrettCannon/snowpack-svelte-ts-tw",
 	"description": "Community template for Snowpack + Svelte + Typescript + TailwindCSS",
-	"version": "1.1.2",
+	"version": "1.2.0",
 	"license": "MIT",
 	"author": {
 		"name": "Garrett Cannon",
