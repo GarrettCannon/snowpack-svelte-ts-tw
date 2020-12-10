@@ -5,5 +5,6 @@ module.exports = {
 		defaults: {
 			script: "typescript",
 		},
+		postcss: true,
 	}),
 };
