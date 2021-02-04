@@ -7,21 +7,25 @@ var app = new App({
 
 export default app;
 
-// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
-// Learn more: https://www.snowpack.dev/#hot-module-replacement
-if (import.meta.hot) {
+if (import.meta?.hot) {
+	// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
+	// Learn more: https://www.snowpack.dev/#hot-module-replacement
 	import.meta.hot.accept();
 	import.meta.hot.dispose(() => {
 		app.$destroy();
 	});
 }
 
-//Type override for HMR so TS doesn't complain
+//Type override for Import/env so TS doesn't complain
 declare global {
 	interface ImportMeta {
 		hot: {
 			accept: Function;
 			dispose: Function;
+		};
+		env: {
+			MODE: string;
+			SNOWPACK_PUBLIC_API_URL: string;
 		};
 	}
 }
